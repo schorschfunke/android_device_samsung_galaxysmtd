@@ -49,10 +49,7 @@ echo "    $OUTDIR/proprietary/modem.bin:modem.bin" >> ../../../$OUTDIR/$DEVICE-v
 
 # Live wallpaper packages and Themes
 PRODUCT_PACKAGES := \\
-    LiveWallpapers \\
     LiveWallpapersPicker \\
-    MagicSmokeWallpapers \\
-    VisualizationWallpapers \\
     librs_jni
 
 # Publish that we support the live wallpaper feature.
